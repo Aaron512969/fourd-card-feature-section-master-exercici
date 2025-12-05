@@ -1,0 +1,172 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Grey500: hsl(234, 12%, 34%);
+    --Grey400: hsl(212, 6%, 44%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/*------------------clases--------------------------------------------------------*/
+
+.poppins-200 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-400 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-600 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*-------------------estructura--------------------------------------------------------------*/
+
+body {
+  font-size: 15;
+  width: 375px;
+  margin: auto;
+}
+
+header {
+  width: 375px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.titulo {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.titulo1 {
+  font-size: 30px;
+  color: var(--Grey500);
+}
+
+.titulo2 {
+  font-size: 36px;
+  color: var(--Grey500);
+}
+
+.subtitulo {
+  margin-top: 40px;
+  padding-top: 0px;
+  text-align: justify;
+  text-justify: inter-word;
+  color: var(--Grey400);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.supervisor {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: var(--White);
+  border-top: var(--Cyan) solid 10px;
+  border-radius: 10px;
+  box-shadow: var(--Grey400) 0px 3px 5px 3px;
+  height: 220px;
+  width: 333px;
+}
+
+.builder {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: var(--White);
+  border-top: var(--Red) solid 10px;
+  border-radius: 10px;
+  box-shadow: var(--Grey400) 0px 3px 5px 3px;
+  width: 333px;
+}
+
+.karma {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: var(--White);
+  border-top: var(--Orange) solid 10px;
+  border-radius: 10px;
+  box-shadow: var(--Grey400) 0px 3px 5px 3px;
+  width: 333px;
+}
+
+.calculator {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: var(--White);
+  border-top: var(--Blue) solid 10px;
+  border-radius: 10px;
+  box-shadow: var(--Grey400) 0px 3px 5px 3px;
+  height: 220px;
+  width: 333px;
+}
+
+
+
+img {
+  padding: 20px;
+  padding-left: 250px;
+}
+
+p {
+  padding-top: 15px;
+  color: var(--Grey400);
+}
+
+h1 {
+  color: var(--Grey500);
+}
+
+/*------------------MEDIA---------------------------------------------*/
+
+@media (min-width: 1440px) {
+
+body {
+  width: 1440px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  width: 1200px;
+  margin: auto;
+}
+
+.builder-karma {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.supervisor {
+  display: block;
+  margin-top: 180px;
+}
+
+.calculator {
+  display: block;
+  margin-top: 180px;
+
+}
+
+
+
+
+
+}
