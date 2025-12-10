@@ -58,8 +58,8 @@ header {
   color: var(--Grey500);
 }
 
-.titulo2 {
-  font-size: 36px;
+.titulo2 {  
+  font-size: 30px;
   color: var(--Grey500);
 }
 
@@ -116,6 +116,10 @@ main {
   box-shadow: var(--Grey400) 0px 3px 5px 3px;
   height: 220px;
   width: 333px;
+}
+
+.precio2 {
+  text-decoration: line-through;
 }
 
 
